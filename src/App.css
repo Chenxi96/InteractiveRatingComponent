@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+main {
+  width: 30%;
+  height: 50%;
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 10px;
+  color: hsl(217, 12%, 63%);
+}
+
+.firstContainer {
+  width: 80%;
+}
+
+.title {
+  display: none;
+}
+
+.message {
+  display: none;
+}
+
+.attribution {
+  margin-top: 10%;
+}/*# sourceMappingURL=App.css.map */
